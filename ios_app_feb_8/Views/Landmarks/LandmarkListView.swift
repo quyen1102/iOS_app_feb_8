@@ -31,6 +31,7 @@ struct LandmarkListView: View {
                         LandmarkRowView(landmarkFavorite: landmark)
                     }
                 }
+                ProfileSummary(profile: Profile.default)
             }
             .navigationTitle("Favorite Landmark")
         }
